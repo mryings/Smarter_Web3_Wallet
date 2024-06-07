@@ -1,0 +1,53 @@
+.apps-page {
+  padding: 0 20px 160px;
+}
+
+.apps-page-header {
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 700;
+  height: 120px;
+}
+
+.apps-page-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.apps-page-app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+    margin-bottom: 40px;
+}
+
+.apps-page-app-row {
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.apps-page-app-row:hover {
+  border-radius: 20px;
+  background-color: var(--gray-color);
+  box-shadow: 5px 5px 20px 0px #00000040;
+}
+
+.apps-page-app-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.apps-page-app-name {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+@media (max-width: 600px) {
+}

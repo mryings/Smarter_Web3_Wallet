@@ -1,0 +1,11 @@
+.input-message {
+  --font-size: 40px !important;
+  padding: 10px;
+  border-radius: 5px;
+  --color: #053346cc;
+}
+
+.demand-button .adm-button {
+  --background-color: white;
+  color: white !important;
+}

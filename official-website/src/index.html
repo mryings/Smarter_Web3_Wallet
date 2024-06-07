@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smarter AA Wallet</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        if (window.innerWidth < 1200) {
+          document.write('<meta content=" target-densitydpi=device-dpi, width=750,shrink-to-fit=no, maximum-scale=2, user-scalable=no" name="viewport">')
+        }
+    </script>
+
+</head>
+<body>
+<nav>
+    <div class="nav-box box-content">
+        <div class="logo">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.32617 10.1563H40.5762C40.9412 10.1561 41.3059 10.1792 41.668 10.2256C41.5452 9.36405 41.2493 8.53628 40.798 7.79219C40.3467 7.0481 39.7494 6.40311 39.0421 5.89611C38.3348 5.38911 37.5321 5.03059 36.6825 4.84218C35.8329 4.65376 34.954 4.63935 34.0986 4.79982L8.39844 9.18751H8.36914C6.75593 9.49601 5.32135 10.4087 4.3584 11.7393C5.80918 10.7074 7.54584 10.154 9.32617 10.1563Z" fill="#BB8C69" fill-opacity="0.8"/>
+                <path d="M40.5762 12.5H9.32617C7.66912 12.5018 6.08046 13.1609 4.90875 14.3326C3.73704 15.5043 3.07798 17.093 3.07617 18.75V37.5C3.07798 39.157 3.73704 40.7457 4.90875 41.9174C6.08046 43.0891 7.66912 43.7482 9.32617 43.75H40.5762C42.2332 43.7482 43.8219 43.0891 44.9936 41.9174C46.1653 40.7457 46.8244 39.157 46.8262 37.5V18.75C46.8244 17.093 46.1653 15.5043 44.9936 14.3326C43.8219 13.1609 42.2332 12.5018 40.5762 12.5ZM35.9375 31.25C35.3194 31.25 34.7152 31.0667 34.2013 30.7233C33.6874 30.38 33.2869 29.8919 33.0504 29.3209C32.8139 28.7499 32.752 28.1215 32.8725 27.5153C32.9931 26.9092 33.2908 26.3523 33.7278 25.9153C34.1648 25.4783 34.7217 25.1806 35.3278 25.06C35.934 24.9395 36.5624 25.0014 37.1334 25.2379C37.7044 25.4744 38.1925 25.8749 38.5358 26.3888C38.8792 26.9027 39.0625 27.5069 39.0625 28.125C39.0625 28.9538 38.7333 29.7487 38.1472 30.3347C37.5612 30.9208 36.7663 31.25 35.9375 31.25Z" fill="#BB8C69" fill-opacity="0.8"/>
+                <path d="M3.125 25.3418V15.625C3.125 13.5088 4.29688 9.96094 8.36426 9.19238C11.8164 8.54492 15.2344 8.54492 15.2344 8.54492C15.2344 8.54492 17.4805 10.1074 15.625 10.1074C13.7695 10.1074 13.8184 12.5 15.625 12.5C17.4316 12.5 15.625 14.7949 15.625 14.7949L8.34961 23.0469L3.125 25.3418Z" fill="#BB8C69" fill-opacity="0.8"/>
+            </svg>
+            <span class="website-name">
+                Smarter AA Wallet
+            </span>
+        </div>
+        <ul>
+            <li><a href="#AA">Account Apps</a></li>
+            <li><a href="#WS">Wallet SDKs</a></li>
+            <li><a href="#DA">Demand Abstraction</a></li>
+        </ul>
+        <a target="_blank" href="https://sw.web3idea.xyz" class="btn">Launch Wallet</a>
+    </div>
+</nav>
+<main class="box-content">
+
+
+    <div class="main-intro main-box">
+        <p class="p1">
+            Fully Open and Decentralized Smart Contract Wallet Ecosystem Based on Account Abstraction (AA)
+        </p>
+
+        <p class="p2">
+            Countless third-party account applications for crypto users to directly get blockchain services and freely explore Web3 world
+        </p>
+
+        <a target="_blank" href="https://sw.web3idea.xyz" class="btn">Launch Wallet</a>
+
+        <div class="ecosystem">
+            <div class="item">
+                <h3 class="title">Developers</h3>
+                <div class="icon">
+                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M68.75 8.75H11.25C9.86719 8.75 8.75 9.86719 8.75 11.25V68.75C8.75 70.1328 9.86719 71.25 11.25 71.25H68.75C70.1328 71.25 71.25 70.1328 71.25 68.75V11.25C71.25 9.86719 70.1328 8.75 68.75 8.75ZM40.0859 40.4766L25.0859 53.0547C24.6797 53.3984 24.0625 53.1094 24.0625 52.5781V47.6797C24.0625 47.5 24.1484 47.3203 24.2891 47.2031L32.8672 40L24.2891 32.7969C24.2173 32.7402 24.1595 32.6677 24.1202 32.585C24.0809 32.5024 24.0612 32.4118 24.0625 32.3203V27.4219C24.0625 26.8906 24.6797 26.6016 25.0859 26.9453L40.0859 39.5156C40.3906 39.7656 40.3906 40.2266 40.0859 40.4766ZM55.9375 52.5781C55.9375 52.9219 55.6719 53.2031 55.3516 53.2031H40.8984C40.5781 53.2031 40.3125 52.9219 40.3125 52.5781V48.8281C40.3125 48.4844 40.5781 48.2031 40.8984 48.2031H55.3516C55.6719 48.2031 55.9375 48.4844 55.9375 48.8281V52.5781Z" fill="#BB8C69" fill-opacity="0.9"/>
+                    </svg>
+                </div>
+                <div class="intro">
+                    <strong>Account applications:</strong> fully universal and interoperable
+                </div>
+            </div>
+
+            <div class="item">
+                <h3 class="title">Wallets</h3>
+                <div class="icon">
+                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.9219 16.25H64.9219C65.5059 16.2497 66.0894 16.2868 66.6688 16.3609C66.4724 14.9825 65.9989 13.658 65.2768 12.4675C64.5547 11.277 63.599 10.245 62.4674 9.43376C61.3357 8.62256 60.0514 8.04893 58.6921 7.74747C57.3327 7.44601 55.9263 7.42295 54.5578 7.67969L13.4375 14.7H13.3906C10.8095 15.1936 8.51417 16.654 6.97345 18.7828C9.29469 17.1318 12.0734 16.2463 14.9219 16.25Z" fill="#BB8C69" fill-opacity="0.9"/>
+                        <path d="M64.9219 20H14.9219C12.2706 20.0029 9.72874 21.0574 7.854 22.9321C5.97927 24.8069 4.92477 27.3487 4.92188 30V60C4.92477 62.6513 5.97927 65.1931 7.854 67.0679C9.72874 68.9426 12.2706 69.9971 14.9219 70H64.9219C67.5732 69.9971 70.115 68.9426 71.9897 67.0679C73.8645 65.1931 74.919 62.6513 74.9219 60V30C74.919 27.3487 73.8645 24.8069 71.9897 22.9321C70.115 21.0574 67.5732 20.0029 64.9219 20ZM57.5 50C56.5111 50 55.5444 49.7068 54.7221 49.1573C53.8999 48.6079 53.259 47.827 52.8806 46.9134C52.5022 45.9998 52.4031 44.9945 52.5961 44.0245C52.789 43.0546 53.2652 42.1637 53.9645 41.4645C54.6637 40.7652 55.5546 40.289 56.5245 40.0961C57.4945 39.9031 58.4998 40.0022 59.4134 40.3806C60.327 40.759 61.1079 41.3999 61.6573 42.2221C62.2068 43.0444 62.5 44.0111 62.5 45C62.5 46.3261 61.9732 47.5979 61.0355 48.5355C60.0979 49.4732 58.8261 50 57.5 50Z" fill="#BB8C69" fill-opacity="0.9"/>
+                        <path d="M5 40.5469V25C5 21.6141 6.875 15.9375 13.3828 14.7078C18.9062 13.6719 24.375 13.6719 24.375 13.6719C24.375 13.6719 27.9688 16.1719 25 16.1719C22.0312 16.1719 22.1094 20 25 20C27.8906 20 25 23.6719 25 23.6719L13.3594 36.875L5 40.5469Z" fill="#BB8C69" fill-opacity="0.9"/>
+                    </svg>
+                </div>
+                <div class="intro">
+                    <strong>Open SDKs:</strong>  freely call and access account applications
+                </div>
+            </div>
+
+            <div class="item">
+                <h3 class="title">Users</h3>
+                <div class="icon">
+                    <svg width="91" height="75" viewBox="0 0 91 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_52_39)">
+                            <path d="M27.2812 37.5C36.0766 37.5 43.1953 30.1611 43.1953 21.0938C43.1953 12.0264 36.0766 4.6875 27.2812 4.6875C18.4859 4.6875 11.3672 12.0264 11.3672 21.0938C11.3672 30.1611 18.4859 37.5 27.2812 37.5ZM38.1937 42.1875H37.0144C34.0589 43.6523 30.7767 44.5312 27.2812 44.5312C23.7858 44.5312 20.5178 43.6523 17.5481 42.1875H16.3687C7.33184 42.1875 0 49.7461 0 59.0625V63.2812C0 67.1631 3.05493 70.3125 6.82031 70.3125H47.7422C51.5076 70.3125 54.5625 67.1631 54.5625 63.2812V59.0625C54.5625 49.7461 47.2307 42.1875 38.1937 42.1875ZM68.2031 37.5C75.7339 37.5 81.8438 31.2012 81.8438 23.4375C81.8438 15.6738 75.7339 9.375 68.2031 9.375C60.6724 9.375 54.5625 15.6738 54.5625 23.4375C54.5625 31.2012 60.6724 37.5 68.2031 37.5ZM75.0234 42.1875H74.4835C72.5084 42.8906 70.4197 43.3594 68.2031 43.3594C65.9865 43.3594 63.8978 42.8906 61.9228 42.1875H61.3828C58.4842 42.1875 55.8129 43.0518 53.4684 44.4434C56.9354 48.2959 59.1094 53.4082 59.1094 59.0625V64.6875C59.1094 65.0098 59.0383 65.3174 59.0241 65.625H84.1172C87.8826 65.625 90.9375 62.4756 90.9375 58.5938C90.9375 49.5264 83.8188 42.1875 75.0234 42.1875Z" fill="#BB8C69" fill-opacity="0.9"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_52_39">
+                                <rect width="90.9375" height="75" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </div>
+                <div class="intro">
+                    <strong>Demand abstraction: </strong> directly meet user demand in a more natural and efficient way
+                </div>
+            </div>
+
+            <h2 class="ecosystem-title">Decentralized AA Wallet Ecosystem</h2>
+
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+            <div class="line l3"></div>
+        </div>
+    </div>
+
+    <div class="account-abstraction main-box">
+        <h2>Account Abstraction</h2>
+        <div class="content flex-content">
+            <table class="left-content">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Launch transaction</th>
+                        <th>Self-defined via smart contract</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>External Owned Account (EOA)</td>
+                        <td><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.89027 10.4688L3.38317 7.92472L9.85192 14.304L23.5437 0.663351L26.0749 3.20739L9.85192 19.3665L0.89027 10.4688Z" fill="#71AD42"/>
+                        </svg>
+                        </td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <td>Contract Account (CA)</td>
+                        <td>❌</td>
+                        <td><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.89027 10.4688L3.38317 7.92472L9.85192 14.304L23.5437 0.663351L26.0749 3.20739L9.85192 19.3665L0.89027 10.4688Z" fill="#71AD42"/>
+                        </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-arrow">
+                            Upgrade to
+                            <div class="arrow">
+                                <svg width="16" height="48" viewBox="0 0 16 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.29289 47.7071C7.68342 48.0976 8.31658 48.0976 8.70711 47.7071L15.0711 41.3431C15.4616 40.9526 15.4616 40.3195 15.0711 39.9289C14.6805 39.5384 14.0474 39.5384 13.6569 39.9289L8 45.5858L2.34315 39.9289C1.95262 39.5384 1.31946 39.5384 0.928932 39.9289C0.538408 40.3195 0.538408 40.9526 0.928932 41.3431L7.29289 47.7071ZM7 0L7 47H9L9 0L7 0Z" fill="#D69C70"/>
+                                </svg>
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Account Abstraction (AA)</td>
+                        <td><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.89027 10.4688L3.38317 7.92472L9.85192 14.304L23.5437 0.663351L26.0749 3.20739L9.85192 19.3665L0.89027 10.4688Z" fill="#71AD42"/>
+                        </svg>
+                        </td>
+                        <td>
+                            <svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.89027 10.4688L3.38317 7.92472L9.85192 14.304L23.5437 0.663351L26.0749 3.20739L9.85192 19.3665L0.89027 10.4688Z" fill="#71AD42"/>
+                            </svg>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="right-item right-content">
+                <p class="main-text">Transform the blockchain account of users into fully programmable and customized smart contracts</p>
+                <a target="_blank" href="https://www.erc4337.io/" class="btn">View ERC-4337</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="AA" class="main-box third-party">
+        <h2>Third-party Account Applications</h2>
+
+        <div class="flex-content">
+            <div class="left-content">
+                <p class="main-text">
+                    All kinds of capable and convenient functions and features for users to freely and easily setup and use their AA account better
+                </p>
+                <button class="btn later">Develop Account Applications</button>
+            </div>
+
+            <div class="right-content">
+                <h3 class="red">Internal account management applications:</h3>
+                <ul class="red">
+                    <li>Multi party login</li>
+                    <li>Social recovery</li>
+                    <li>Transfer limits</li>
+                    <li>Token gas payment</li>
+                    <li>···</li>
+                </ul>
+
+                <h3 class="green">External account interaction applications:</h3>
+                <ul class="green">
+                    <li>Auto trading bot</li>
+                    <li>Batch transfer</li>
+                    <li>Gas sponsor</li>
+                    <li>P2P matching</li>
+                    <li>···</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="WS" class="main-box sdk-wrapper">
+        <h2>Open SDKs for Third-party Wallets</h2>
+        <div class="content flex-content">
+            <div class="left-content">
+                <ul class="wallets">
+                    <li>
+                        <div class="icon"></div>
+                        <h4>Wallet</h4>
+                    </li>
+                    <li>
+                        <div class="icon"></div>
+                        <h4>Wallet</h4>
+                    </li>
+                    <li>
+                        <div class="icon"></div>
+                        <h4>Wallet</h4>
+                    </li>
+                </ul>
+                <div class="rotate">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="icon"></div>
+                    <h4>SDK</h4>
+                </div>
+                <ul class="account-app">
+                    <li>
+                        <div class="icon"></div>
+                        <h4>Account App</h4>
+                    </li>
+                    <li>
+                        <div class="icon"></div>
+                        <h4>Account App</h4>
+                    </li>
+                    <li>
+                        <div class="icon"></div>
+                        <h4>Account App</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right-content">
+                <p class="main-text">Each account application can be seamlessly accessed and used in other different AA wallets with full interconnectivity and interoperability</p>
+                <button class="btn later">Connect Your AA Wallet</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="DA" class="main-box user-demand">
+        <h2>User Demand Abstraction</h2>
+        <div class="content flex-content">
+            <div class="left-content">
+                <p class="main-text">
+                    Users can directly express and get what they need  without going through specific apps by themselves,
+                    which provides the ultimate way of user interaction with the most natural and simple user experience
+                </p>
+                <a target="_blank" href="https://sw.web3idea.xyz" class="btn">Launch Smart AA Wallet</a>
+            </div>
+
+            <div class="right-content">
+                <div class="user">
+                    <h3>User</h3>
+                    <p class="p1">Specify demand</p>
+                    <ul class="icon-list">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p class="p2">Wallet front end</p>
+                </div>
+                <div class="arrow">
+                    <svg width="48" height="16" viewBox="0 0 48 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M47.7071 8.70711C48.0976 8.31658 48.0976 7.68342 47.7071 7.29289L41.3431 0.928932C40.9526 0.538408 40.3195 0.538408 39.9289 0.928932C39.5384 1.31946 39.5384 1.95262 39.9289 2.34315L45.5858 8L39.9289 13.6569C39.5384 14.0474 39.5384 14.6805 39.9289 15.0711C40.3195 15.4616 40.9526 15.4616 41.3431 15.0711L47.7071 8.70711ZM0 9H47V7H0L0 9Z" fill="#D39567"/>
+                    </svg>
+                </div>
+                <div class="aa-system">
+                    <h3>AA System</h3>
+                    <p class="p1">Match and run the corresponding apps</p>
+                    <ul class="app-list">
+                        <li>App</li>
+                        <li>App</li>
+                        <li>App</li>
+                        <li>···</li>
+                    </ul>
+                    <p class="p2">Wallet back end</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    <div class="main-box member-box">-->
+<!--        <h2>Welcome to Join Us!</h2>-->
+
+<!--        <ul class="member-list">-->
+<!--            <li>-->
+<!--                <div class="name">Team member</div>-->
+<!--                <div class="avatar"></div>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <div class="name">Team member</div>-->
+<!--                <div class="avatar"></div>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <div class="name">Team member</div>-->
+<!--                <div class="avatar"></div>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <div class="name">Team member</div>-->
+<!--                <div class="avatar"></div>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <div class="name">Team member</div>-->
+<!--                <div class="avatar"></div>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+
+    <div class="main-box contact-box">
+        <div class="email"> <strong>Contact Email: </strong>smartaawallet@gmail.com</div>
+        <ul class="contact-list">
+            <li><a href="javascript:;" class="discord"></a></li>
+            <li><a href="javascript:;" class="telegram"></a></li>
+            <li><a href="javascript:;" class="twitter"></a></li>
+            <li><a href="https://github.com/smarterwallet" target="_blank" class="github"></a></li>
+        </ul>
+    </div>
+
+</main>
+
+<script>
+    document.querySelectorAll('.later').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        alert('Coming soon...')
+      })
+    })
+    const navElem = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        navElem.classList.add('shadow-nav');
+      } else {
+        navElem.classList.remove('shadow-nav');
+      }
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "address": {
+    "address_simple_account_factory": "0x188cEaFf80D32373C52837e162A52c82484D3A6b",
+    "address_token_paymaster": "0x1B53F0E62e62a7cE76e9018B6701c9CaACfcE9B1",
+    "address_entrypoint": "0xc3E0A55109c032328F67202c020f7Da2Fddd8B8a"
+  },
+  "api": {
+    "blockchain_scan": "https://polygonscan.com/tx/",
+    "backend_api": "https://smarter-api-polygon.web3idea.xyz/be/api/v1",
+    "auto_trading_api": "https://smarter-api-at.web3idea.xyz",
+    "rpc_api": "https://polygon-rpc.web3idea.xyz",
+    "bundler_api": "https://smarter-api-polygon.web3idea.xyz/bundler/",
+    "matic_tx_list_internal_api": "https://api.polygonscan.com/api?module=account&action=txlistinternal&startblock=0&endblock=99999999&sort=desc&apikey=4U977NBK8MNJNK2QEMTMABEQD6UWV99SUX&address=%s",
+    "matic_tx_list_api": "https://api.polygonscan.com/api?module=account&action=txlistinternal&startblock=0&endblock=99999999&sort=desc&apikey=4U977NBK8MNJNK2QEMTMABEQD6UWV99SUX&address=%s",
+    "erc20_tx_from_list_api": "https://api.polygonscan.com/api?module=logs&action=getLogs&address=%s&startblock=0&endblock=99999999&sort=desc&apikey=4U977NBK8MNJNK2QEMTMABEQD6UWV99SUX&topic0=0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef&topic0_1_opr=and&topic1=0x000000000000000000000000%s",
+    "erc20_tx_to_list_api": "https://api.polygonscan.com/api?module=logs&action=getLogs&address=%s&startblock=0&endblock=99999999&sort=desc&apikey=4U977NBK8MNJNK2QEMTMABEQD6UWV99SUX&topic0=0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef&topic0_1_opr=and&topic2=0x000000000000000000000000%s"
+  },
+  "token": {
+    "MATIC": {
+      "sort": 0,
+      "name": "MATIC",
+      "address": null,
+      "decimals": 18,
+      "type": 1,
+      "icon": "/icon/matic.png"
+    },
+    "SWT": {
+      "sort": 1,
+      "name": "SWT",
+      "address": "0x1B53F0E62e62a7cE76e9018B6701c9CaACfcE9B1",
+      "decimals": 18,
+      "type": 2,
+      "icon": "/icon/usdc.png"
+    }
+  }
+}
